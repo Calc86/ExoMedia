@@ -14,12 +14,6 @@ buildscript {
 allprojects {
   repositories {
     mavenCentral()
-    jcenter() {
-      content {
-        // Included for PlaylistCore until that's migrated to Maven Central
-        includeGroup "com.devbrackets.android"
-      }
-    }
     google()
   }
 }
